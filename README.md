@@ -38,7 +38,7 @@ Before running Vektor HCM locally, ensure you have:
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone <repository-url>
+git clone https://github.com/Farhanharoon116/Vektor-hcm
 cd vektor-hcm
 
 # Install all monorepo workspace dependencies
