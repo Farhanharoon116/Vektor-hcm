@@ -1,0 +1,21 @@
+{
+  "name": "vektor-hcm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vektor HCM — AI-assisted Human Capital Management for Admin, HR and Employees",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "dev": "npm run dev --workspaces",
+    "dev:api": "npm run dev --workspace=@vektor/api",
+    "dev:web": "npm run dev --workspace=@vektor/web",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspace=@vektor/shared"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
