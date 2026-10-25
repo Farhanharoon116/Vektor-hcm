@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "seed": "tsx src/scripts/seed-demo.ts",
-    "build": "tsc",
+    "build": "npm run build --workspace=@vektor/shared && tsc",
     "start": "node dist/index.js",
     "typecheck": "tsc --noEmit"
   },
